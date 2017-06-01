@@ -1,0 +1,71 @@
+body {
+  background-color: #b30000;
+  color: black;
+}
+
+#logo {
+  font-family: monospace;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+
+#main {
+  border: 4px solid black;
+  border-radius: 25px;
+  background-image: url(images/retina_wood.png);
+}
+
+p {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1,3em;
+}
+
+h3 {
+  font-size: 1,3em;
+}
+
+#map {
+  width: 640px;
+  height: 500px;
+}
+
+#build {
+  font-size: 0.9em;
+}
+
+#build a {
+  color: black;
+}
+
+@media screen and (max-width: 991px) {
+
+.menu li a {
+  font-size: 1.3em;
+  padding-top: 20px;
+}
+
+#map {
+  max-width: 280px;
+  max-height: 300px;
+  }
+
+  p {
+    font-size: 1,1em;
+  }
+
+  h1 {
+    font-size: 1,1em;
+  }
+
+  h3 {
+    font-size: 1,1em;
+  }
+}
